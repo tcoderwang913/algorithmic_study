@@ -21,7 +21,6 @@ public:
         int n = num.size();
         vector<int> triplet(3);
         for (int i = 0; i < n; ++i) {
-        	//remember this continue block
             if (i >0&& num[i] == num[i-1]) continue;
             
             int j = i+1;
